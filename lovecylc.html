@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="love.css">
+</head>
+
+<body>
+    <header class="head">Calculate Your Love</header>
+    <div class="container">
+        <input type="text" placeholder="Yourname" id="fname">
+        <!--<form>
+             <input type="text" placeholder="Yourname"width:20px; >
+             <botton style="width:10px; background-color: beige;">+</botton>
+             <input type="text" placeholder="lovename" style="left: 70px;">
+         </form>-->
+    </div>
+    <div class="container1">
+        <input type="text" placeholder="lovename" id="lname">
+
+    </div>
+    <button id="click" onclick="fun()">Click for result</button>
+    <input type="text" id="display">
+    <script>
+         function fun() {
+        var fname = document.getElementById('fname').value;
+        var lname = document.getElementById('lname').value;
+            if (fname == "") {
+                alert('please name');
+            } else if (fname.length <= 2) {
+                alert('Enter only more than 2 letter');
+
+            } else if (!isNaN(fname)) {
+                alert('Allowed only letter');
+            } else if (lname == "") {
+                alert('please lovename');
+            } else if (lname.length <= 2) {
+                alert("Enter only more than 2 letter");
+
+            } else if (!isNaN(lname)) {
+                alert('Allowed only letter');
+            }
+            else {
+                var data = document.getElementById('click').value;
+                var displaydata = Math.floor(Math.random() * 100);
+
+                document.getElementById('display').value = displaydata+"%";
+            }
+        }
+    </script>
+</body>
+
+</html>

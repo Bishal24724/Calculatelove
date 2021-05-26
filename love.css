@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-image:url("photo/photo-1518568814500-bf0f8d125f46.jpg");
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+}
+header{
+    background-color: brown;
+    font-size:40px;
+    padding:5px 5px;
+    text-align: center;
+    
+    height:70px;
+    margin:5px 5px;
+    align:center;
+}
+.container{
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    top:22%;
+    left:39%;
+   /* background-color: cadetblue;*/
+    height:100px;
+    width:100px;
+    border:1px;
+   /*background-image: url(photo//5c002d216d2fe0782d3f535333091bd2.jpg);*/
+    background-size:cover;
+    
+}
+#fname{
+    position:absolute;
+    align-items: center;
+    justify-items: center;
+    top:43%;
+    left:1%%; 
+    width:100px;
+    padding:3px;
+    margin:5px 5px;
+    background-color:lightslategrey;
+    border-width:0;
+    color:maroon;
+    font-size:20px;
+}
+.container1{
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    top:8%;
+    left:55%;
+   /* background-color: cadetblue;*/
+    height:100px;
+    width:100px;
+    border:1px;
+ /*  background-image: url(photo//5c002d216d2fe0782d3f535333091bd2.jpg);*/
+    background-size:cover;
+    
+}
+#lname{
+    position:absolute;
+    align-items: center;
+    justify-items: center;
+    top:43%;
+    left:1%%; 
+    width:100px;
+    padding:3px;
+    margin:5px 5px;
+    background-color:lightslategrey;
+    border-width:0;
+    color:maroon;
+    font-size:20px;
+}
+#lname:hover,
+#fname:hover{
+    background-color: red;
+    color:gold;
+    font-size:20px;
+}
+#click{
+    position: relative;
+    top:18%;
+    left:40%;
+    background-color: lightslategrey;
+    text-align: center;
+    align-items: center;
+    width:300px;
+    color: maroon;
+    font-size: 20px;;
+}
+#display{
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    top:30%;
+    left:23%;
+    font-size:20px;
+    background-color:lightslategrey;
+    padding:5px;
+    width:100px;
+    color:maroon;
+
+}
